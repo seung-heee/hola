@@ -1,0 +1,46 @@
+[{
+        "id": 1,
+        "time": "10:00",
+        "schedule": "오리엔테이션 1부 시작"
+    },
+    {
+        "id": 2,
+        "time": "12:30",
+        "schedule": "점심시간"
+    },
+    {
+        "id": 3,
+        "time": "13:30",
+        "schedule": "단과대학 레크레이션"
+    },
+    {
+        "id": 4,
+        "time": "15:30",
+        "schedule": "오리엔테이션 2부 시작"
+    },
+    {
+        "id": 5,
+        "time": "15:35",
+        "schedule": "흥이 HOLA!"
+    },
+    {
+        "id": 6,
+        "time": "17:55",
+        "schedule": "달아 HOLA!"
+    },
+    {
+        "id": 7,
+        "time": "18:35",
+        "schedule": "Secret Guest"
+    },
+    {
+        "id": 8,
+        "time": "19:00",
+        "schedule": "시상 및 추첨"
+    },
+    {
+        "id": 9,
+        "time": "19:10",
+        "schedule": "폐막식"
+    }
+]
