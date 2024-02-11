@@ -6,6 +6,7 @@ import StageProgram from "./pages/StageProgram";
 import CollegeRecreation from "./pages/CollegeRecreation";
 import SnsEvent from "./pages/SnsEvent";
 import About from "./pages/About";
+import './css/styles.css';
 
 function App() {
   return (
