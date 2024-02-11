@@ -34,12 +34,20 @@
 
 .App {
     min-height: 100vh;
-    background-color: #009DFF;
+    background-color: rgb(0, 157, 255);
     /* background-image: url('../public/img/background.png'); */
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     color: white;
+}
+
+.BackBox {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 90%;
+    height: 90%;
+    margin: auto auto;
+    border-radius: 20px;
 }
 
 body {
@@ -49,6 +57,10 @@ body {
     /* font-family: 'SF_HailSnow'; */
     min-height: 100vh;
     margin: 0;
+}
+
+.last {
+    height: 12vh;
 }
 
 
