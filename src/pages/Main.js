@@ -1,9 +1,11 @@
 import React from 'react';
+import FixedBottom from '../components/FixedBottom';
 
 const Main = () => {
     return (
         <div>
-            Main
+            
+            <FixedBottom />
         </div>
     );
 };

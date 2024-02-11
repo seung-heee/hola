@@ -28,6 +28,7 @@
 
 .titleFont {
     font-family: 'RixInooAriDuriR';
+    text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.50);
 }
 
 .App {
@@ -47,4 +48,11 @@ body {
     /* font-family: 'SF_HailSnow'; */
     min-height: 100vh;
     margin: 0;
+}
+
+
+/* FixedBottom  */
+
+.FixedBottom {
+    letter-spacing: 7px;
 }
