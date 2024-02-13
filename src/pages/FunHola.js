@@ -1,6 +1,6 @@
 import React from 'react';
 
-const StageProgram = () => {
+const FunHola = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const StageProgram = () => {
     );
 };
 
-export default StageProgram;
+export default FunHola;

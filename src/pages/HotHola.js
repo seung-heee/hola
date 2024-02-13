@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CollegeRecreation = () => {
+const HotHola = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const CollegeRecreation = () => {
     );
 };
 
-export default CollegeRecreation;
+export default HotHola;

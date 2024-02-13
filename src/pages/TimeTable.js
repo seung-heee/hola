@@ -8,7 +8,6 @@ import TimeTableElement from '../components/TimeTableElement';
 
 const TimeTable = () => {
     return (
-        <>
         <div className='TimeTable relative'>
             <BackBox />
             <PageTitle pagetitle={'TIME TABLE'} />
@@ -20,7 +19,6 @@ const TimeTable = () => {
                     })}
             <FixedBottom />
         </div>
-        </>
     );
 };
 

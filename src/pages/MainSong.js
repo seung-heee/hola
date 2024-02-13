@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ThemeSong = () => {
+const MainSong = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const ThemeSong = () => {
     );
 };
 
-export default ThemeSong;
+export default MainSong;

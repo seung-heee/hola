@@ -8,6 +8,11 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "aAbstractGroovy";
+    src: url("../assets/font/aAbstractGroovy.ttf");
+}
+
 @media (min-width: 375px) {
     .App,
     .Navbar {
@@ -30,6 +35,10 @@
     font-family: 'RixInooAriDuriR';
     -webkit-text-stroke: 1px black;
     text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.50);
+}
+
+.GroovyFont {
+    font-family: "aAbstractGroovy";
 }
 
 .App {
