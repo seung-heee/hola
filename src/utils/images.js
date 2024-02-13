@@ -16,5 +16,11 @@ export const images = {
     blackheart: PATH + '/assets/images/hotHola/blackheart.png',
     music: PATH + '/assets/images/hotHola/music.png',
     pegasuss: PATH + '/assets/images/hotHola/pegasuss.png',
+    // main song
+    album: PATH + '/assets/images/mainSong/song.png',
     
+    // snsEvent
+    sns1: PATH + '/assets/images/snsEvent/001.png',
+    sns2: PATH + '/assets/images/snsEvent/002.png',
+
 };

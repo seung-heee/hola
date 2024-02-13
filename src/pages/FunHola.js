@@ -18,17 +18,17 @@ const FunHola = () => {
                 열정적으로 응원 부탁드리겠습니다.
             </div>
 
-            <div className='my-8'>
+            <div className='my-3'>
                 <div className='flex w-10/12 justify-center items-center mx-auto tracking-wider'>
-                    <div className='w-3/12 mr-4'><img src={images.gold} alt='1등'/></div>
+                    <div className='w-4/12'><img src={images.gold} alt='1등'/></div>
                     <div className='text-4xl'>1등 50만원</div>
                 </div>
                 <div className='flex w-10/12 justify-center items-center mx-auto tracking-wider'>
-                    <div className='w-3/12 mr-4'><img src={images.silver} alt='1등'/></div>
+                    <div className='w-4/12'><img src={images.silver} alt='1등'/></div>
                     <div className='text-4xl'>2등 30만원</div>
                 </div>
                 <div className='flex w-10/12 justify-center items-center mx-auto tracking-wider'>
-                    <div className='w-3/12 mr-4'><img src={images.bronze} alt='1등'/></div>
+                    <div className='w-4/12'><img src={images.bronze} alt='1등'/></div>
                     <div className='text-4xl'>3등 10만원</div>
                 </div>      
             </div>

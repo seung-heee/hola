@@ -54,6 +54,10 @@
     text-shadow: 3px 2px 0px rgba(0, 0, 0);
 }
 
+.groovyFontXX {
+    font-family: "aAbstractGroovy";
+}
+
 .textFont {
     font-family: 'ONE-Mobile-Title';
 }
