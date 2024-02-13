@@ -1,0 +1,56 @@
+.TimeTable {
+    background-image: url('../../public/assets/images/background/timetableBack.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh
+}
+
+.PresentList {
+    background-image: url('../../public/assets/images/background/presentListBack2.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh
+}
+
+.FunHola {
+    background-image: url('../../public/assets/images/background/funHolaBack.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.HotHola {
+    background-image: url('../../public/assets/images/background/hotHolaBack.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.MainSong {
+    background-image: url('../../public/assets/images/background/mainSongBack.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.SnsEvent {
+    background-image: url('../../public/assets/images/background/snsEventBack.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+/* Main Song */
+
+.orange {
+    color: #FD9F28;
+}
+
+.eventBox {
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2px black;
+    background-color: white;
+}

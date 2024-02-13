@@ -4,7 +4,6 @@ import FixedBottom from '../components/FixedBottom';
 const Main = () => {
     return (
         <div>
-            
             <FixedBottom />
         </div>
     );
