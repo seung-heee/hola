@@ -1,0 +1,11 @@
+.TimeTable {
+    background-image: url('../assets/images/background/timetableBack.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.PresentList {
+    background-image: url('../assets/images/background/presentListBack2.png');
+    background-position: center;
+    background-size: cover;
+}

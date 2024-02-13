@@ -13,6 +13,13 @@
     src: url("../assets/font/aAbstractGroovy.ttf");
 }
 
+@font-face {
+    font-family: 'ONE-Mobile-Title';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @media (min-width: 375px) {
     .App,
     .Navbar {
@@ -34,11 +41,22 @@
 .titleFont {
     font-family: 'RixInooAriDuriR';
     -webkit-text-stroke: 1px black;
-    text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.50);
+    text-shadow: 3px 2px 0px rgba(0, 0, 0);
+    letter-spacing: 10px;
 }
 
-.GroovyFont {
+.groovyFont {
     font-family: "aAbstractGroovy";
+    -webkit-text-stroke: 1px black;
+    text-shadow: 3px 2px 0px rgba(0, 0, 0);
+}
+
+.textFont {
+    font-family: 'ONE-Mobile-Title';
+}
+
+.bg-2E3D86 {
+    background-color: #2E3D86;
 }
 
 .App {
