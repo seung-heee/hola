@@ -12,13 +12,13 @@ const FunHola = () => {
                 <span className='groovyFont'>HOLA!</span>
             </div>
 
-            <div className='w-9/12 mx-auto text-xl textFont text-center break-keep'>학부(과)별 대표팀이 타오르는 열정으로
+            <div className='w-9/12 mx-auto text-xl textRixFontblue text-center break-keep'>학부(과)별 대표팀이 타오르는 열정으로
                 무대를 빛내줄 예정입니다.
                 소속 학부(과)의 우승을 위해
                 열정적으로 응원 부탁드리겠습니다.
             </div>
 
-            <div className='my-3'>
+            <div className='my-2'>
                 <div className='flex w-10/12 justify-center items-center mx-auto tracking-wider'>
                     <div className='w-4/12'><img src={images.gold} alt='1등'/></div>
                     <div className='text-4xl'>1등 50만원</div>
@@ -35,7 +35,7 @@ const FunHola = () => {
 
             <img src={images.goldCard} alt="goldCard" className='w-10/12 mx-auto' />
 
-            <div className='w-11/12 mx-auto flex justify-center items-center textFont text-center my-5'>
+            <div className='w-11/12 mx-auto flex justify-center items-center textRixFontblue text-center my-5'>
                 <div className='break-keep'>
                     학부(과) 타임테이블은 총학생회 비상대책위원회 인스타그램 참고
                     <TfiHandPointRight className='inline-block ml-1' size={24}/>

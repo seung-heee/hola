@@ -5,9 +5,9 @@ import { images } from '../utils/images';
 
 const PresentList = () => {
     return (
-        <div className='PresentList titleFont relative'>
+        <div className='PresentList subtitleFont relative'>
             <BackBox />
-            <div className="text-6xl text-center pt-16 mb-10 tracking-widest">경품 목록</div>
+            <div className="text-6xl text-center pt-16 mb-10 tracking-widest titleFont">경품 목록</div>
         
             <div className='text-2xl flex flex-col w-9/12 mx-auto relative mb-52'>
                 <div className='text-start'>
