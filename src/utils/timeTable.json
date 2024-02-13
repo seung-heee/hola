@@ -1,46 +1,85 @@
 [{
         "id": 1,
         "time": "10:00",
-        "schedule": "오리엔테이션 1부 시작"
+        "schedule": "오리엔테이션 1부 시작",
+        "blue": false
     },
     {
         "id": 2,
-        "time": "12:30",
-        "schedule": "점심시간"
+        "time": "10:35",
+        "schedule": "기수단 입장",
+        "blue": true
     },
     {
         "id": 3,
-        "time": "13:30",
-        "schedule": "단과대학 레크레이션"
+        "time": "10:55",
+        "schedule": "입학선서",
+        "blue": true
     },
     {
         "id": 4,
-        "time": "15:30",
-        "schedule": "오리엔테이션 2부 시작"
+        "time": "12:15",
+        "schedule": "점심시간",
+        "blue": false
     },
     {
         "id": 5,
-        "time": "15:35",
-        "schedule": "흥이 HOLA!"
+        "time": "13:30",
+        "schedule": "단과대학 레크레이션",
+        "blue": false
     },
     {
         "id": 6,
-        "time": "17:55",
-        "schedule": "달아 HOLA!"
+        "time": "15:30",
+        "schedule": "오리엔테이션 2부 시작",
+        "blue": false
     },
     {
         "id": 7,
-        "time": "18:35",
-        "schedule": "Secret Guest"
+        "time": "15:35",
+        "schedule": "흥이 HOLA!",
+        "blue": false
     },
     {
         "id": 8,
-        "time": "19:00",
-        "schedule": "시상 및 추첨"
+        "time": "16:06",
+        "schedule": "달아 HOLA!",
+        "blue": false
     },
     {
         "id": 9,
-        "time": "19:10",
-        "schedule": "폐막식"
+        "time": "16:06",
+        "schedule": "흑심",
+        "blue": true
+    },
+    {
+        "id": 10,
+        "time": "16:10",
+        "schedule": "뮤직애",
+        "blue": true
+    },
+    {
+        "id": 11,
+        "time": "16:40",
+        "schedule": "페가수스",
+        "blue": true
+    },
+    {
+        "id": 12,
+        "time": "18:00",
+        "schedule": "시상 및 추첨",
+        "blue": false
+    },
+    {
+        "id": 13,
+        "time": "18:30",
+        "schedule": "Secret Guest",
+        "blue": false
+    },
+    {
+        "id": 14,
+        "time": "19:20",
+        "schedule": "폐막식",
+        "blue": false
     }
 ]
