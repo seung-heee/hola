@@ -1,11 +1,17 @@
 .TimeTable {
-    background-image: url('../assets/images/background/timetableBack.png');
+    background-image: url('../../public/assets/images/background/timetableBack.png');
     background-position: center;
     background-size: cover;
 }
 
 .PresentList {
-    background-image: url('../assets/images/background/presentListBack2.png');
+    background-image: url('../../public/assets/images/background/presentListBack2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.FunHola {
+    background-image: url('../../public/assets/images/background/funHolaBack.png');
     background-position: center;
     background-size: cover;
 }

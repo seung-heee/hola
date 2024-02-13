@@ -10,7 +10,7 @@ const TimeTable = () => {
     return (
         <div className='TimeTable relative'>
             <BackBox />
-            <div className="groovyFont  text-5xl text-center pt-16 mb-6">TIME TABLE</div>
+            <div className="groovyFont  text-6xl text-center pt-16 mb-6">TIME TABLE</div>
             
             {timeTable.map((timeTable)=>{
                 return (<>
