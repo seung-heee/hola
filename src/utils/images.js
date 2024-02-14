@@ -22,5 +22,7 @@ export const images = {
     // snsEvent
     sns1: PATH + '/assets/images/snsEvent/001.png',
     sns2: PATH + '/assets/images/snsEvent/002.png',
-
+    // timetable
+    
+    line: PATH + '/assets/images/line.png',
 };
