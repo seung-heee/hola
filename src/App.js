@@ -8,6 +8,7 @@ import FunHola from "./pages/FunHola";
 import HotHola from "./pages/HotHola";
 import MainSong from "./pages/MainSong";
 import './css/styles.css';
+import GuestPage from "./pages/GuestPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/mainSong' element={<MainSong />} /> 
         <Route path='/snsEvent' element={<SnsEvent />} />
         <Route path='/about' element={<About />} />
+        <Route path='/guestPage' element={<GuestPage />} />
       </Routes>
     </div>
   );

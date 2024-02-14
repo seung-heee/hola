@@ -9,8 +9,10 @@ import { images } from '../utils/images';
 
 const TimeTable = () => {
     return (
+        <>
         <div className='TimeTable relative'>
-            <BackBox />
+        <BackBox />
+        <div className='relative z-10'>
             <div className="groovyFont text-6xl text-center pt-16 mb-6">TIME TABLE</div>
             
             {timeTable.map((timeTable)=>{
@@ -33,7 +35,9 @@ const TimeTable = () => {
                     })}
 
             <FixedBottom />
+            </div>
         </div>
+        </>
     );
 };
 
