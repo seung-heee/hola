@@ -104,7 +104,9 @@
 
 .bg-2E3D86 {
     background-color: #2E3D86;
+    text-shadow: 4px 3px 0px rgba(0, 0, 0, 1);
 }
+
 
 .App {
     min-height: 100vh;
@@ -121,7 +123,7 @@
     width: 90%;
     height: 90%;
     margin: auto auto;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 body {
@@ -142,4 +144,58 @@ body {
 
 .FixedBottom {
     letter-spacing: 7px;
+}
+
+/* Main */
+.mainBoom {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -15%);
+}
+.mainTitle {
+  color: #ff9100;
+}
+
+
+/* CollegeRecreation */
+
+.CRContainer {
+  max-width: 375px;
+  min-height: 100vh;
+}
+
+
+/* background animation */
+
+.bgAniContainer {
+  width: 375px;
+  overflow: hidden;
+  margin-top: -30px;
+}
+.bgAniWrap {
+  display: flex;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: 1s;
+  opacity: 0.4;
+  font-size: 76px;
+  margin: 25px 0;
+  transform: rotate(-15deg);
+}
+
+.bgAniText {
+  animation: textLoop 20s linear infinite;
+  padding-right: 1.4881vw;
+}
+
+@keyframes textLoop {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
 }
