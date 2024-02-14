@@ -2,13 +2,15 @@ import React from 'react';
 import FixedBottom from '../components/FixedBottom';
 import { images } from '../utils/images';
 import BackBox from '../components/BackBox';
+import Nav from '../components/Nav';
 
 const SnsEvent = () => {
     return (
         <div className='SnsEvent relative textRixFont'>
+            <Nav />
             <BackBox />
             <div className='relative z-10'>
-                <div className="titleFont text-6xl text-center pt-16 mb-6">SNS 이벤트</div>
+                <div className="titleFont text-6xl text-center pt-20 mb-6">SNS 이벤트</div>
 
                 <div className='textRixFont eventBox text-xl text-center w-10/12 mx-auto break-keep orange'>
                     릴스, 필터 이벤트를 통해서 각 이벤트 당 <span className='text-white'>학식쿠폰 50장</span>을 드립니다!

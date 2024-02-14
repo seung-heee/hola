@@ -4,13 +4,15 @@ import { images } from '../utils/images';
 import { Link } from 'react-router-dom';
 import { TfiHandPointRight } from "react-icons/tfi";
 import BackBox from '../components/BackBox';
+import Nav from '../components/Nav';
 
 const FunHola = () => {
     return (
         <div className='FunHola relative titleShadowXX'>
+            <Nav />
             <BackBox />
             <div className='relative z-10'>
-                <div className="titleFont text-6xl text-center pt-16 mb-6 flex items-center justify-center">
+                <div className="titleFont text-6xl text-center pt-20 mb-6 flex items-center justify-center">
                     <span className='inline-block mr-3'>흥이</span>
                     <span className='groovyFont'>HOLA!</span>
                 </div>

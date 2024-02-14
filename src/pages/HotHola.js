@@ -3,13 +3,15 @@ import FixedBottom from '../components/FixedBottom';
 import { Link } from 'react-router-dom';
 import { images } from '../utils/images';
 import BackBox from '../components/BackBox';
+import Nav from '../components/Nav';
 
 const HotHola = () => {
     return (
         <div className='HotHola relative titleShadowXX'>
+            <Nav />
             <BackBox />
             <div className='relative z-10'>
-                <div className="titleFont text-6xl text-center pt-16 mb-6 flex items-center justify-center">
+                <div className="titleFont text-6xl text-center pt-20 mb-6 flex items-center justify-center">
                     <span className='inline-block mr-3'>달아</span>
                     <span className='groovyFont'>HOLA!</span>
                 </div>

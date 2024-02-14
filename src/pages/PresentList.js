@@ -1,14 +1,16 @@
 import React from 'react';
 import FixedBottom from '../components/FixedBottom';
+import Nav from '../components/Nav';
 import BackBox from '../components/BackBox';
 import { images } from '../utils/images';
 
 const PresentList = () => {
     return (
         <div className='PresentList subtitleFont relative'>
+            <Nav />
             <BackBox />
             <div className='relative z-10'>
-                <div className="text-6xl text-center pt-16 mb-10 tracking-widest titleFont">경품 목록</div>
+                <div className="text-6xl text-center pt-20 mb-10 tracking-widest titleFont">경품 목록</div>
             
                 <div className='text-2xl flex flex-col w-9/12 mx-auto relative mb-52'>
                     <div className='text-start'>

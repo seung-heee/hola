@@ -5,15 +5,17 @@ import '../css/subPages.css';
 import timeTable from '../utils/timeTable.json'
 import BackBox from '../components/BackBox';
 import TimeTableElement from '../components/TimeTableElement';
+import Nav from '../components/Nav';
 import { images } from '../utils/images';
 
 const TimeTable = () => {
     return (
         <>
+        <Nav />
         <div className='TimeTable relative'>
         <BackBox />
         <div className='relative z-10'>
-            <div className="groovyFont text-6xl text-center pt-16 mb-6">TIME TABLE</div>
+            <div className="groovyFont text-6xl text-center pt-20 mb-6">TIME TABLE</div>
             
             {timeTable.map((timeTable)=>{
                 return (<>

@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import Main from "./pages/Main";
 import TimeTable from "./pages/TimeTable";
 import PresentList from "./pages/PresentList";
@@ -9,13 +9,15 @@ import HotHola from "./pages/HotHola";
 import MainSong from "./pages/MainSong";
 import './css/styles.css';
 import GuestPage from "./pages/GuestPage";
+import { useState } from "react";
 
 function App() {
+
   return (
     <div className="App">
       <Routes>
         <Route path='/' element={<Main />} />
-        <Route path='/timeTable' element={<TimeTable />} />
+        <Route path='/timeTable' element={<TimeTable/>} />
         <Route path='/presentList' element={<PresentList />} />
         <Route path='/funHola' element={<FunHola />} /> 
         <Route path='/hotHola' element={<HotHola />} /> 

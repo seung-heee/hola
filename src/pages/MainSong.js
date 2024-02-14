@@ -4,13 +4,15 @@ import { Link } from 'react-router-dom';
 import { images } from '../utils/images';
 import { LuMousePointerClick } from "react-icons/lu";
 import BackBox from '../components/BackBox';
+import Nav from '../components/Nav';
 
 const MainSong = () => {
     return (
         <div className='MainSong relative '>
+            <Nav />
             <BackBox />
             <div className='relative z-10'>
-                <div className="titleFont text-6xl text-center pt-16 mb-6 flex items-center justify-center">주제곡 안내</div>
+                <div className="titleFont text-6xl text-center pt-20 mb-6 flex items-center justify-center">주제곡 안내</div>
 
                 <Link to='https://www.youtube.com/watch?v=O53n_scAXY0' target='_blank' className='relative'>
                 <div className='groovyFontXX text-4xl mx-auto text-center mt-5'>NEW : <span className='orange'>START</span></div>

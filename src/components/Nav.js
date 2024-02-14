@@ -9,11 +9,11 @@ const MainNav = () => {
   const location = useLocation();
 
   return (
-    <div className="Nav flex justify-around items-center text-lg py-5 px-6">
+    <div className="Nav flex justify-around items-center text-lg py-5 px-6 fixed top-0 z-20 left-0 right-0">
       <ul className='container'>
         {location.pathname !== '/' &&
           <>
-            <li className="text-2xl titleFont"><Link to='/' className='moveHome'>HOLA!</Link></li>
+            <li className={`${isOpen ? 'hidden' : ''} text-2xl titleFont`}><Link to='/' className='moveHome'>HOLA!</Link></li>
           </>
         }
         <li className={`off-screen-menu ${isOpen ? 'open fixed fade-in-top ' : 'hidden'} flex justify-center items-center tracking-[1px]`}>
@@ -22,6 +22,8 @@ const MainNav = () => {
           )}
         </li>
       </ul >
+
+
       <div className={`hamburger-menu ${isOpen ? 'active' : ''} cursor-pointer z-50 navVersion`} onClick={() => setIsOpen(!isOpen)}>
         <div className="ham-bar bar-top menugreen"></div>
         <div className="ham-bar bar-mid menugreen"></div>
