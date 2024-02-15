@@ -1,4 +1,4 @@
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Main from "./pages/Main";
 import TimeTable from "./pages/TimeTable";
 import PresentList from "./pages/PresentList";
@@ -7,9 +7,9 @@ import About from "./pages/About";
 import FunHola from "./pages/FunHola";
 import HotHola from "./pages/HotHola";
 import MainSong from "./pages/MainSong";
-import './css/styles.css';
 import GuestPage from "./pages/GuestPage";
-import { useState } from "react";
+import Menu from "./pages/Menu";
+import './css/styles.css';
 
 function App() {
 
@@ -25,6 +25,7 @@ function App() {
         <Route path='/snsEvent' element={<SnsEvent />} />
         <Route path='/about' element={<About />} />
         <Route path='/guestPage' element={<GuestPage />} />
+        <Route path='/menu' element={<Menu/>} />
       </Routes>
     </div>
   );
