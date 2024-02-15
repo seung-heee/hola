@@ -23,6 +23,13 @@ export const images = {
     sns1: PATH + '/assets/images/snsEvent/001.png',
     sns2: PATH + '/assets/images/snsEvent/002.png',
     // timetable
-    
     line: PATH + '/assets/images/line.png',
+    // Secret Guest
+    guest1: PATH + '/assets/images/guest/guest1.png',
+    guest2: PATH + '/assets/images/guest/guest2.png',
+    
+    // 미모티콘
+    cz : PATH + '/assets/images/abou/cz.png',
+    minji : PATH + '/assets/images/abou/minji.png',
+    seunghee : PATH + '/assets/images/abou/seunghee.png',
 };

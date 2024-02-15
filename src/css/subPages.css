@@ -40,6 +40,13 @@
     min-height: 100vh;
 }
 
+.GuestPage {
+    background-image: url('../../public/assets/images/background/secretGuestBack.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
 
 /* Main Song */
 
@@ -53,4 +60,14 @@
     border-radius: 10px;
     box-shadow: 5px 5px 2px 2px rgb(0, 0, 0, 0.7);
     background-color: white;
+}
+
+.guestText {
+    -webkit-text-stroke: 1px #2E3D86;
+    text-shadow: 3px 4px 3px #2E3D86;
+}
+
+.guestText1 {
+    -webkit-text-stroke: 1px #1187CF;
+    text-shadow: 3px 4px 3px #1187CF;
 }
