@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import BgAnimation from '../components/BgAnimation';
 import FixedBottom from '../components/FixedBottom';
 import ScrollTop from '../utils/ScrollTop';
+import '../css/nav.css';
 
 const Main = () => {
   return (
@@ -25,10 +26,7 @@ const Main = () => {
       <Link to='/menu' className='navLinkItem'>
         <div className="mainContent relative text-5xl font-bold tracking-widest mt-36 z-20 titleFont duration-500 hover:translate-y-[-5px] heartbeat">따라와~!</div>   
       </Link>
-
-      {/* <button onClick={() => handleButtonClick('/menu')}
-      className="mainContent relative text-5xl font-bold tracking-widest mt-36 z-20 titleFont duration-500 hover:translate-y-[-5px] heartbeat">따라와~!</button>
-       */}
+      
       <FixedBottom />
       <ScrollTop />
     </div>

@@ -10,20 +10,20 @@ import ElectionCommission from './../components/ElectionCommission';
 
 const About = () => {
   return (
-    <div className="About relative">
+    <div className="About relative textFont">
       <Nav/>
       <BackBox />
       <div className="SASFont relative flex flex-col items-center justify-center text-center z-70">
         <div className="titleFont text-[54px] text-center pt-20 mb-4 flex items-center justify-center tracking-widest">만든이들</div>
-        <div className="w-full flex justify-evenly">
-          <div>
-            <div className="w-28 h-28 pt-2 items-center" ><img src={images.likelionLogo} alt="멋사로고" className="p-2" /></div>
+        <div className="w-10/12 mx-auto flex justify-evenly">
+        <div className="flex flex-col items-center">
+            <div className="w-24 h-24 pt-2 items-center" ><img src={images.likelionLogo} alt="멋사로고" className="p-2" /></div>
             <p className="mt-2 -mb-1">성결대학교</p>
             <p>멋쟁이사자처럼</p>
           </div>
           <Lottie className='w-3/12' animationData={loadingLottie} />
-          <div>
-            <div className="w-24 h-28" ><img src={images.councilLogo} alt="비대위" /></div>
+          <div className="flex flex-col items-center">
+            <div className="w-20 h-24" ><img src={images.councilLogo} alt="비대위" /></div>
             <p className="mt-2 -mb-1">총학생회</p>
             <p>비상대책위원회</p>
           </div>
