@@ -46,7 +46,12 @@
     background-size: cover;
     min-height: 100vh;
 }
-
+.About {
+  background-image: url('../../public/assets/images/background/aboutBack.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh
+}
 
 /* Main Song */
 

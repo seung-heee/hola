@@ -27,9 +27,14 @@ export const images = {
     // Secret Guest
     guest1: PATH + '/assets/images/guest/guest1.png',
     guest2: PATH + '/assets/images/guest/guest2.png',
+
+    // About LOGO
+    likelionLogo: PATH + '/assets/images/about/likelion/likelionlogo.png',
+    councilLogo: PATH + '/assets/images/about/studentCouncil/총학생회로고.png',
     
     // 미모티콘
-    cz : PATH + '/assets/images/abou/cz.png',
-    minji : PATH + '/assets/images/abou/minji.png',
-    seunghee : PATH + '/assets/images/abou/seunghee.png',
+    cz : PATH + '/assets/images/about/likelion/cz.png',
+    minji : PATH + '/assets/images/about/likelion/minji.png',
+    seunghee : PATH + '/assets/images/about/likelion/seunghee.png',
+    hojoo: PATH + '/assets/images/about/likelion/hojoo.png',
 };

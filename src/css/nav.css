@@ -9,11 +9,16 @@
     text-decoration: none;
     -webkit-text-stroke: 1px black;
 }
-
+.navLinkItem:visited {
+  color: inherit;
+  text-decoration: inherit;
+  -webkit-text-stroke: 1px black;
+}
 .NavBtn {   
   position: relative;
   z-index: 100;
 }
+
 .nav-bg-scrolled {
   background-color: rgb(251, 244, 232, 0.1);
   backdrop-filter: blur(4px);
