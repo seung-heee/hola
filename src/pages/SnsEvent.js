@@ -3,6 +3,7 @@ import FixedBottom from '../components/FixedBottom';
 import { images } from '../utils/images';
 import BackBox from '../components/BackBox';
 import Nav from '../components/Nav';
+import ScrollTop from '../utils/ScrollTop';
 
 const SnsEvent = () => {
     return (
@@ -28,6 +29,7 @@ const SnsEvent = () => {
                 </div>
                 <FixedBottom />
             </div>
+            <ScrollTop />
         </div>
     );
 };

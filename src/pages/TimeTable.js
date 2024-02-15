@@ -7,6 +7,7 @@ import BackBox from '../components/BackBox';
 import TimeTableElement from '../components/TimeTableElement';
 import Nav from '../components/Nav';
 import { images } from '../utils/images';
+import ScrollTop from '../utils/ScrollTop';
 
 const TimeTable = () => {
     return (
@@ -39,6 +40,7 @@ const TimeTable = () => {
             <FixedBottom />
             </div>
         </div>
+        <ScrollTop />
         </>
     );
 };

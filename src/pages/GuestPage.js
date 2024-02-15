@@ -4,6 +4,7 @@ import FixedBottom from './../components/FixedBottom';
 import BackBox from './../components/BackBox';
 import PageTitle from './../components/PageTitle';
 import { images } from '../utils/images';
+import ScrollTop from '../utils/ScrollTop';
 
 const GuestPage = () => {
     return (
@@ -23,6 +24,7 @@ const GuestPage = () => {
             <FixedBottom />
             </div>
         </div>
+        <ScrollTop />
         </>
     );
 };

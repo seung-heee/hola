@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import { TfiHandPointRight } from "react-icons/tfi";
 import BackBox from '../components/BackBox';
 import Nav from '../components/Nav';
+import '../css/animation.css';
+import ScrollTop from '../utils/ScrollTop';
 
 const FunHola = () => {
     return (
@@ -45,10 +47,11 @@ const FunHola = () => {
                         학부(과) 타임테이블은 총학생회 비상대책위원회 인스타그램 참고
                         <TfiHandPointRight className='inline-block ml-1' size={24}/>
                     </div>
-                    <Link to='https://www.instagram.com/sku_bisang?igsh=MXFvMmw1ZG94NW9kMg=='className='w-5/12' target='_blank'><img src={images.bisang} alt="삐상이" /></Link>
+                    <Link to='https://www.instagram.com/sku_bisang?igsh=MXFvMmw1ZG94NW9kMg=='className='w-5/12 heartbeat' target='_blank'><img src={images.bisang} alt="삐상이" /></Link>
                 </div>
                 <FixedBottom />
             </div>
+            <ScrollTop />
         </div>
     );
 };

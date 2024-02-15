@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { images } from '../utils/images';
 import BackBox from '../components/BackBox';
 import Nav from '../components/Nav';
+import ScrollTop from '../utils/ScrollTop';
 
 const HotHola = () => {
     return (
@@ -41,6 +42,7 @@ const HotHola = () => {
                 </Link>
                 <FixedBottom />
             </div>
+            <ScrollTop />
         </div>
     );
 };

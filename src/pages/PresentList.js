@@ -3,6 +3,7 @@ import FixedBottom from '../components/FixedBottom';
 import Nav from '../components/Nav';
 import BackBox from '../components/BackBox';
 import { images } from '../utils/images';
+import ScrollTop from '../utils/ScrollTop';
 
 const PresentList = () => {
     return (
@@ -34,6 +35,7 @@ const PresentList = () => {
                 </div>
                 <FixedBottom />
             </div>
+            <ScrollTop />
         </div>
     );
 };

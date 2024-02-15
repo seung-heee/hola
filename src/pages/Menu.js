@@ -4,6 +4,7 @@ import '../css/nav.css';
 import BackBox from "../components/BackBox";
 import FixedBottom from "../components/FixedBottom";
 import { RiArrowGoBackFill } from "react-icons/ri";
+import ScrollTop from '../utils/ScrollTop';
 
 
 const Menu = () => {
@@ -11,7 +12,7 @@ const Menu = () => {
     setIsOpen(false)
   }
   return (  
-    <div className="ShowNav relative w-full titleShadowXX z-100">
+    <div className="ShowNav relative w-full titleShadowXX z-100 page">
       <ul className="min-h-screen flex flex-col items-center justify-center gap-y-2 text-3xl">
         <BackBox />
         <Link to="/" className='Nav fixed top-0 flex justify-between items-center px-5 py-3'>
@@ -57,6 +58,7 @@ const Menu = () => {
         </Link>
         <FixedBottom/>
       </ul>
+      <ScrollTop />
     </div>
   )
 };

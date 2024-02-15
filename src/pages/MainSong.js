@@ -5,6 +5,7 @@ import { images } from '../utils/images';
 import { LuMousePointerClick } from "react-icons/lu";
 import BackBox from '../components/BackBox';
 import Nav from '../components/Nav';
+import ScrollTop from '../utils/ScrollTop';
 
 const MainSong = () => {
     return (
@@ -29,6 +30,7 @@ const MainSong = () => {
                 </div>
                 <FixedBottom />
             </div>
+            <ScrollTop />
         </div>
     );
 };
