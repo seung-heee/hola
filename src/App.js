@@ -29,12 +29,12 @@ function App() {
       );
       // 시차 보정
       setCookie('visitor', 'visitor', { path: './', expires: expiresDate, secure: true });
-      // callAPI(); 
+      callAPI(); 
     }
   }, []);
 
   const callAPI = () => {
-    axios.get('https://welcome-hola.sku-sku.com/')
+    axios.get('https://api.sku-sku.com/visitors/welcome-Hola/')
       .then((response) => {
         console.log(response.data);
       })
