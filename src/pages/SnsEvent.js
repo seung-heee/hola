@@ -4,6 +4,7 @@ import { images } from '../utils/images';
 import BackBox from '../components/BackBox';
 import Nav from '../components/Nav';
 import ScrollTop from '../utils/ScrollTop';
+import { Link } from 'react-router-dom';
 
 const SnsEvent = () => {
     return (
@@ -18,7 +19,7 @@ const SnsEvent = () => {
                 </div>
                 
                 <div className='my-4 flex w-10/12 mx-auto justify-center items-center text-center text-xl'>
-                    <div className='w-6/12'><img src={images.sns1} alt="" /></div>
+                    <Link to='https://www.instagram.com/reel/C3UtNWEhALB/?igsh=MThycjNpd3J2NjJjdQ==' target='_blank' className='w-6/12 heartbeat5'><img src={images.sns1} alt="" /></Link>
                     <div className='whitespace-nowrap'>MZ 새내기들을 위한<br/>다함께<br/>
                     <span className='textRixFontOrange'>NEW:START</span><br/> 릴스 챌린지!</div>
                 </div>
