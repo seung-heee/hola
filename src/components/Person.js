@@ -12,7 +12,7 @@ const Person = ({ id }) => {
                             <img src={person.logo} alt="personimg" />
                             <div className='name'>{person.name}</div>
                         </div>
-                        <div className="Pdepart">{person.department}</div>
+                        <div className={`${id==5 || id==6 ? 'text-red-400' : 'text-blue-400'} Pdepart`}>{person.department}</div>
                         <div className="Pposi">{person.position}</div>
                         <div className='Prole'>{person.role}</div>
                     </div>

@@ -33,8 +33,8 @@ const About = () => {
           오리엔테이션을 기획하였습니다. 성결대학교 <br />
           <span className="text-blue-500">멋쟁이사자처럼</span>에서 웹사이트를 제작하였습니다.
         </div>
-        <LikelionPeople />
         <ElectionCommission />
+        <LikelionPeople />
         <FixedBottom />
       </div>
     </div>

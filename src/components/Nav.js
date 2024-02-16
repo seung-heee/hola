@@ -34,8 +34,8 @@ const MainNav = () => {
     <>
       <div className={ navbg }>
         <ul className='container flex justify-between'>
-          <li className={`${isOpen ? '' : 'hidden'} text-2xl`}>
-            <Link className={`${isOpen ? '' : 'z-20'}`} to="/" onClick={() => {
+          <li className={`${isOpen ? 'hidden' : 'z-20'} text-2xl`}>
+            <Link to="/" onClick={() => {
               window.scrollTo({
                   top: 0,
                   behavior: 'smooth',
