@@ -11,12 +11,12 @@ const MainSong = () => {
     return (
         <div className='MainSong relative '>
             <Nav />
-            <BackBox />
+            <BackBox color={'black'} />
             <div className='relative z-10'>
                 <div className="titleFont text-6xl text-center pt-20 mb-6 flex items-center justify-center">주제곡 안내</div>
 
                 <Link to='https://www.youtube.com/watch?v=O53n_scAXY0' target='_blank' className='relative'>
-                <div className='groovyFontXX text-4xl mx-auto text-center mt-5'>NEW : <span className='orange'>START</span></div>
+                <div className='groovyFontXX text-4xl mx-auto text-center mt-5 heartbeat'>NEW : <span className='orange'>START</span></div>
                 <LuMousePointerClick size={35} className='absolute right-10'/>
                 <img src={images.album} alt="newStart" className='w-10/12 mx-auto mb-5'/>
                 </Link>

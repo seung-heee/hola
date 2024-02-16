@@ -7,6 +7,7 @@ import Lottie from "lottie-react";
 import loadingLottie from "../utils/handshake.json";
 import LikelionPeople from './../components/LikelionPeople';
 import ElectionCommission from './../components/ElectionCommission';
+import ScrollTop from "../utils/ScrollTop";
 
 const About = () => {
   return (
@@ -37,6 +38,7 @@ const About = () => {
         <LikelionPeople />
         <FixedBottom />
       </div>
+      <ScrollTop />
     </div>
   )
 }

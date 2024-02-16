@@ -1,8 +1,8 @@
 import React from 'react';
 
-const BackBox = () => {
+const BackBox = ({color}) => {
     return (
-        <div className="BackBox absolute top-0 left-0 right-0 bottom-0"></div>
+        <div className={`${color=='black'?'BackBoxBlack':'BackBox'} absolute top-0 left-0 right-0 bottom-0`}></div>
     );
 };
 
