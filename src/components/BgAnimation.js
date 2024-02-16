@@ -12,7 +12,7 @@ const BgAnimation = (props) => {
     bgAniWrapList.push(<div className="overflow-hidden flex whitespace-nowrap opacity-40 text-8xl -rotate-12 my-9 flex-[0_0_auto] transition-[1s]">{bgAniTextList}</div>);
   }
 
-  return <div className="bgAniContainer w-full h-screen absolute -mt-8">{bgAniWrapList}</div>;
+  return <div className="bgAniContainer w-full h-screen absolute -mt-8 -ml-3">{bgAniWrapList}</div>;
 };
 
 export default BgAnimation;

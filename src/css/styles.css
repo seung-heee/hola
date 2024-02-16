@@ -158,6 +158,9 @@ body {
 }
 
 /* background animation */
+.bgAniContainer{
+  width: 500px;
+}
 
 .bgAniText {
     animation: textLoop 20s linear infinite;
