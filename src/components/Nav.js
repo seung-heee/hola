@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import '../css/nav.css';
 import BackBox from "./BackBox";
 import FixedBottom from "./FixedBottom";
+import { images } from './../utils/images';
 
 const MainNav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +42,9 @@ const MainNav = () => {
                   behavior: 'smooth',
               });
             }}>
-              <div className="moveHome titleShadowXX text-xl">HOLA!</div>
+              <div className="moveHome groovyFontXX text-xl">
+                <img src={images.Navlogo} alt="" className="w-14"/>
+              </div>
             </Link>
           </li>
           <div></div>

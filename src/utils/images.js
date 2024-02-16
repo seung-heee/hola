@@ -37,4 +37,7 @@ export const images = {
     minji : PATH + '/assets/images/about/likelion/minji.png',
     seunghee : PATH + '/assets/images/about/likelion/seunghee.png',
     hojoo: PATH + '/assets/images/about/likelion/hojoo.png',
+
+    // Navlogo
+    Navlogo : PATH + '/assets/images/boomCloudLogo.png',
 };

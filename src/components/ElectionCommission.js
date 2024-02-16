@@ -18,5 +18,5 @@ const ElectionCommission = () => {
         </div>
     )
 }
-
+   
 export default ElectionCommission;
