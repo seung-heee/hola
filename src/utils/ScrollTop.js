@@ -9,7 +9,7 @@ const ScrollTop = () => {
             top:0,
             behavior: 'smooth',
         });
-    }, pathname)
+    }, [pathname])
 
     return null;
 };

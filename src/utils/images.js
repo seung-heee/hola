@@ -29,7 +29,7 @@ export const images = {
     guest2: PATH + '/assets/images/guest/guest2.png',
 
     // About LOGO
-    likelionLogo: PATH + '/assets/images/about/likelion/likelionlogo.png',
+    likelionLogo: PATH + '/assets/images/about/likelion/likelionLogo.png',
     councilLogo: PATH + '/assets/images/about/studentCouncil/총학생회로고.png',
     
     // 미모티콘
