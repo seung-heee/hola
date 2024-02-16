@@ -11,8 +11,8 @@ const MainNav = () => {
     useEffect(() => {
         // 스크롤 이벤트 핸들러를 추가
         const handleScroll = () => {
-            if (window.scrollY > 0) {
-                setScrolling(true); // 스크롤 위치가 0px 이상이면 scrolling 상태를 true로 설정
+            if (window.scrollY > 30) {
+                setScrolling(true); // 스크롤 위치가 30px 이상이면 scrolling 상태를 true로 설정
             } else {
                 setScrolling(false); // 그 외의 경우에는 scrolling 상태를 false로 설정
             }
@@ -86,12 +86,12 @@ const ShowNav = ({ setIsOpen }) => {
           </li>
         </Link>
         <Link to="/funHola" onClick={closeNav} className="navLinkItem">
-          <li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn">
+          <li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn mt-1">
             <img src="assets/images/nav/nav3.png" alt="흥이 HOLA!" style={{width:'250px'}} />
           </li>
         </Link>
         <Link to="/hotHola" onClick={closeNav} className="navLinkItem">
-          <li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn">
+          <li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn -mt-2">
             <img src="assets/images/nav/nav4.png" alt="달아 HOLA!" style={{width:'250px'}} />
           </li>
         </Link>
@@ -101,7 +101,7 @@ const ShowNav = ({ setIsOpen }) => {
           </li>
         </Link>
         <Link to="/snsEvent" onClick={closeNav} className="navLinkItem">
-          <li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn">
+          <li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn my-1">
             <img src="assets/images/nav/nav6.png" alt="SNS 이벤트" style={{width:'235px'}} />
           </li>
         </Link>

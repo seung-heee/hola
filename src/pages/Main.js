@@ -24,7 +24,7 @@ const Main = () => {
         </div>
       </div>
       <Link to='/menu' className='navLinkItem'>
-        <div className="mainContent relative text-5xl font-bold tracking-widest mt-36 z-20 titleFont duration-500 hover:translate-y-[-5px] heartbeat">따라와~!</div>   
+        <div className="mainContent relative text-5xl font-bold tracking-widest mt-36 z-20 titleFont w-9/12 mx-auto heartbeat">따라와~!</div>   
       </Link>
       
       <FixedBottom />
