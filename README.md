@@ -6,7 +6,7 @@
   
 <br>
 
-## 프로젝트 소개
+## 📋 프로젝트 소개
 
 - 총학생회 비상대책위원회 X IT 창업동아리 멋쟁이사자처럼 12기
 - 2024 신입생 오리엔테이션 웹사이트
@@ -14,7 +14,7 @@
 
 <br>
 
-## 팀원 구성
+## 👨🏻‍💻 팀원 구성
 
 <div align="center">
 
@@ -25,3 +25,7 @@
 </div>
 
 <br>
+
+## 📚 STACKS
+ <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+ <img src="https://img.shields.io/badge/tailwind css-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> 
